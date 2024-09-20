@@ -1,0 +1,420 @@
+/* Custom Styles */
+.navbar-brand img {
+    height: auto;
+  }
+  
+  
+
+
+/* Banner Styles */
+.new-customer-banner {
+    background: linear-gradient(90deg, #DBFFE8 0%, #FFEDC9 100%);
+    text-align: center;
+  }
+  
+  .discount-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1E1E1E;
+    display: inline-block;
+  }
+  
+  /* Image Frame Styles */
+  .image-frame {
+    width: 100%;
+    height: 201px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+  }
+  
+
+
+
+
+  /* Carousel Section Styles */
+.carousel-section {
+  background-color: #1e1e1e;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  gap: 16px;
+}
+
+.image-frame {
+  width: 348px;
+  height: 201px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  flex: none;
+}
+
+@media (max-width: 768px) {
+  .image-frame {
+    width: 83.53px;
+    height: 48.24px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* General Section Styling */
+#hero-section {
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(225, 241, 249, 0.6) 50%, rgba(177, 228, 247, 0.9) 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Heading Styling */
+#hero-section h1 {
+    color: #110406;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#hero-section p.lead {
+    color: #7C7C7C;
+    font-size: 1.25rem;
+}
+
+/* CTA Button Styling */
+.cta-buttons .btn-success {
+    background-color: #09C269;
+    border: none;
+}
+
+.cta-buttons .btn-outline-secondary {
+    color: #7C7C7C;
+    border-color: #BFB5B6;
+}
+
+/* Dashboard Image */
+#hero-section .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Feature Box Styling */
+.feature-box {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    min-height: 150px;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Icon Styling */
+.feature-icon {
+    width: 36px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Feature Heading Styling */
+.feature-box h5 {
+    color: #110406;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+/* Learn More Link */
+.feature-box a {
+    color: #09C269;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.feature-box a:hover {
+    text-decoration: underline;
+}
+
+/* Feature Section Row Alignment */
+#hero-section .feature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#hero-section .feature-section .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Trusted by Section */
+.trusted-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    width: 183px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 991px) {
+    #hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta-buttons .btn-lg {
+        font-size: 1rem;
+        padding: 0.75rem 1.25rem;
+    }
+
+    .feature-box h5 {
+        font-size: 1.15rem;
+    }
+
+    .feature-box a {
+        font-size: 0.85rem;
+    }
+    
+    /* Feature Section Alignment for Mobile */
+    #hero-section .feature-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+/* Scroll Section */
+.scroll-section {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px 0;
+    gap: 10px; 
+    flex-wrap: wrap;
+}
+
+/* Group Box Styling */
+.group-box {
+    width: 350px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Subtract - White background for each section */
+.subtract {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    z-index: 1;
+    border-radius: 16px;
+}
+
+/* Header Content (Icon and Title) */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    gap: 5px;
+    top: 20px;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+/* Custom Icon Circle */
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #CAF1DE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon Styling */
+.icon-circle i {
+    font-size: 30px;
+    color: #0EC36A;
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 21.5px;
+    color: #000;
+    z-index: 2;
+}
+
+/* Tagline Text */
+.tagline-text {
+    position: relative;
+    top: 30px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: #7C7C7C;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 2;
+    margin-bottom: 5px;
+}
+
+/* Image Group */
+.image-group {
+    position: relative;
+    top: 40px; 
+    z-index: 2;
+}
+
+.image-group img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 16px; 
+    border-bottom-right-radius: 16px; 
+}
+
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+/* Desktop view */
+@media (min-width: 1200px) {
+    .group-box {
+        width: calc(25% - 15px); 
+        height: auto;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .group-box {
+        width: calc(50% - 10px); 
+        margin-bottom: 10px; 
+    }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+    .group-box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px; /* Reduced margin */
+    }
+
+    /* Stack icon and title vertically on mobile */
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Center the button within the container */
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Base Styles for the Button */
+  .cta-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 22px;
+    gap: 10px;
+  
+    width: 100%;
+    max-width: 219.26px;
+    height: 56px;
+  
+    background: #09C269;
+    border: 1px solid #09C269;
+    border-radius: 4px;
+  
+    cursor: pointer;
+    border: none;
+    outline: none;
+  
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #07A456;
+  }
+  
+  /* Button Text */
+  .button-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  }
+  
+  /* Arrow Icon Goes in here*/
+  .arrow-icon {
+    display: inline-block;
+    width: 15.26px;
+    height: 15.26px;
+    background-color: #FFFFFF;
+    mask: url('images/arrow-line.svg') no-repeat center;
+    -webkit-mask: url('images/arrow-line.svg') no-repeat center;
+    transform: rotate(90deg);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 767px) {
+    .cta-button {
+      width: 100%;
+      max-width: 219.26px;
+      height: 56px;
+    }
+  
+    .button-text {
+      font-size: 18px;
+    }
+  }
+  
